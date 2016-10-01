@@ -3,11 +3,11 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { UniversalModule } from 'angular2-universal';
 
-import { App, Home } from './app/app';
+import { App, Home, ListComponent } from './app/app';
 
 @NgModule({
   bootstrap: [ App ],
-  declarations: [ App, Home ],
+  declarations: [ App, Home, ListComponent ],
   imports: [
     UniversalModule, // NodeModule, NodeHttpModule, and NodeJsonpModule are included
     FormsModule,
